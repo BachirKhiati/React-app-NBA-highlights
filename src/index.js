@@ -5,6 +5,7 @@ import {BrowserRouter,Route} from 'react-router-dom';
 
 //Componenents
 import Home from './components/home';
+import Teams from './components/teams';
 import Team from './components/team';
 
 const App = ()=>{
@@ -12,7 +13,8 @@ const App = ()=>{
         <BrowserRouter>
         <div>
         <Route exact path="/" component={Home} ></Route>
-        <Route path="/team/:teamName" component={Team} ></Route>
+        <Route exact path="/teams" component={Teams} ></Route>
+        <Route exact path="/team/:id" component={Team} ></Route>
         </div>
         </BrowserRouter>
     );

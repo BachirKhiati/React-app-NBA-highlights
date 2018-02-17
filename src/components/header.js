@@ -1,14 +1,18 @@
 import React from "react";
 
+import NavBar from "./navbar";
 
 
-
-
-const Header =()=>{
-  return(
+const Header = () => {
+  return (
     <div>
-      <div className="header" >Header</div>
-      <div className="header-Logo"></div>
+      <div className="navbar">
+        <div className="nav-logo">
+        <NavBar/>
+        </div>
+      </div>
+
+      {/* <div className="headercover" /> */}
     </div>
   );
 };

@@ -1,0 +1,370 @@
+body {
+  margin: 0 0 0 0;
+  font-family: "Fjalla One";
+  background: #ffffff;
+}
+
+footer .logo span {
+  background: url("/images/logo.png") no-repeat;
+  display: inline-block;
+  width: 58px;
+  height: 24px;
+}
+
+footer {
+  background: #1f1f1f;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: aliceblue;
+  font-family: "Fjalla One";
+  color: #4784df;
+}
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  position: inherit;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+header {
+  font-size: 24px;
+  text-align: right;
+  font-family: "J";
+  color: #659ef3;
+  margin: 5px;
+}
+
+.navteam Link {
+  text-align: right;
+  font-family: "Fjalla One";
+  color: #659ef3;
+  margin: 5px;
+}
+
+/*****
+ slider
+ *******/
+.item-slider {
+  height: 700px !important;
+  background-size: cover !important;
+  background-position: center center;
+  position: relative;
+  font-family: "fjalla One";
+}
+
+.item-slider .caption {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  text-align: right;
+  width: 320px;
+  text-transform: uppercase;
+}
+
+.item-slider .caption h4 {
+  font-weight: 300;
+  margin: 0;
+}
+.item-slider .caption p {
+  font-size: 70px;
+  margin-top: 0;
+}
+
+/*****
+subscribwe****
+*****/
+
+.sub_panel {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.sub_panel h3 {
+  font-family: "Fjalla One";
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.sub_panel input {
+  border-radius: 20px;
+  border: 3px solid #dddddd;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.sub_panel input:focus {
+  outline-width: 0;
+}
+
+.sub_panel input:focus {
+  outline-width: 0;
+}
+
+.sub_panel small {
+  font-size: 10px;
+  line-height: 0;
+}
+
+.sub_panel .error {
+  display: none;
+  color: #f44336;
+}
+
+.sub_panel .success {
+  display: none;
+  color: #f44336;
+}
+
+.sub_panel .error.show,
+.sub_panel .success.show {
+  display: block;
+}
+
+/****
+***
+blocks
+****/
+
+.item_block {
+  margin: 75px;
+  height: 500px !important;
+  width: fit-content;
+  background-repeat: no-repeat !important;
+}
+
+/******
+   ***** block
+   ******/
+
+.home_blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.home_blocks .item {
+  flex-grow: 1;
+  position: relative;
+  height: 270px !important;
+  overflow: hidden;
+
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.home_blocks .item.lg {
+  width: 50%;
+  animation-delay: 100ms !important;
+  -webkit-animation-delay: 100ms !important;
+  -moz-animation-delay: 100ms !important;
+}
+
+.home_blocks .item.md {
+  width: 30%;
+  animation-delay: 300ms !important;
+  -webkit-animation-delay: 300ms !important;
+  -moz-animation-delay: 300ms !important;
+}
+
+.home_blocks .item.sm {
+  width: 20%;
+  animation-delay: 500ms !important;
+  -webkit-animation-delay: 500ms !important;
+  -moz-animation-delay: 500ms !important;
+}
+
+.home_blocks .item:hover .title {
+  transform: translate(0, -39px);
+  background: black;
+  transition: all 500ms ease-in-out;
+}
+
+.home_blocks .item .title {
+  padding: 10px;
+  transition: all 500ms ease-in-out;
+}
+
+.home_blocks .item .veil {
+  background: rgba(0, 0, 0, 0.501);
+  height: 100%;
+
+  transition: all 500ms ease-in-out;
+}
+
+.home_blocks .item:hover .veil {
+  transform: translate(0, -39px);
+  background: rgba(255, 255, 255, 0);
+}
+
+.home_blocks .item:hover .title a {
+  color: white;
+}
+
+/*****
+poll
+*****/
+
+.home_poll {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.poll_container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.poll_container .poll_item {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.poll_container .poll_item img {
+  width: 80%;
+}
+
+.poll_container .poll_item div {
+  font-family: ´Fjalla One´, sans-serif, bold;
+  font-size: 16px;
+}
+
+/**********
+Team****
+*******/
+
+
+
+
+
+.teams_container {
+ 
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+
+}
+
+.teams_container .teams_item {
+  flex-grow: 1;
+  position: relative;
+
+  overflow: hidden;
+
+
+
+  margin: 40px;
+  box-sizing: border-box;
+  width: 250px ;
+}
+
+
+
+.teams_container .teams_item img {
+  margin: 20px 0;
+  width: 250px;
+  height: 250px;
+  margin: 40px ;
+}
+
+/*****
+teamsbar
+*****/
+
+.teams_comp {
+  min-height: 800px;
+}
+
+.teams_input {
+  text-align: center;
+  padding: 20px 0 !important;
+  background: #e6e6e6;
+}
+.teams_input input {
+  font-family: "Roboto";
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.teams_input input:focus {
+  outline: none;
+}
+
+
+
+
+/*****
+team***
+***/
+
+.team_item{
+  display: flex;
+  padding: 20px;
+}
+
+
+.team_item .left{
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+
+
+.team_item .left img{
+  width: 150px
+}
+
+.team_item h1{
+ color: #6d6d6d;
+}
+
+
+
+ .team_item .right img{
+ 
+   display: block;
+   padding: 20px  20px;
+   width: 200px;
+ }
+
+
+
+.team_item .squad .player{
+  padding: 20px;
+ position: relative;
+ width: 100px;
+ 
+ }
+
+
+ 
+ .team_item .right {
+  flex-grow: 1;
+  
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ position: relative;
+ box-sizing: border-box;
+  border-left: 1px solid #b9b9b9;
+  width: 100px;
+
+ }
